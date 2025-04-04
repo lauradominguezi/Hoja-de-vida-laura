@@ -1,0 +1,289 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+.foto {/* Estilos foto portada */
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+  /* Estilos para la barra de navegación */
+nav {
+    background-color: #000000; /* Color de fondo azul */
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la lista */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para cada ítem del menú */
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  .contenedor {
+    display: flex;  /* Activa el modelo Flexbox */
+    align-items: center;  /* Centra verticalmente */
+    justify-content: space-between; /* Separa los elementos */
+    max-width: 1200px;  /* Limita el ancho */
+    margin: auto;  /* Centra el contenedor */
+    padding: 20px;
+}
+  /* Estilos para los enlaces */
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  /* Efecto hover */
+  nav ul li a:hover {
+    background-color: white;
+    color: #f70404;
+  }
+  
+  /* Estilos responsivos para pantallas pequeñas */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+
+
+
+
+/* Sección del texto */
+.textoalamitad {
+    width: 50%;  /* Ocupa la mitad del espacio */
+    padding-right: 10px;  /* Espaciado a la derecha */
+}
+
+/* Imagen */
+.imagenalamitad {
+    width: 50%;  /* Ocupa la mitad del espacio */
+}
+/* Sección del texto */
+.textoalamitad1 {
+    width: 50%;  /* Ocupa la mitad del espacio */
+    padding-right: 10px;  /* Espaciado a la derecha */
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+    h5 {
+        margin-top: 1px;
+        color: white;
+        font-size: 30px; /* Tamaño fijo en píxeles */
+}
+
+/* Imagen */
+.imagenalamitad1 {
+    width: 50%;  /* Ocupa la mitad del espacio */
+}
+
+
+
+  /* Encabezados */
+  h2, h3 {
+    color: #0056b3;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  /* Párrafos */
+  p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  /* Lista */
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  /* Enlaces */
+  a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+
+
+
+
+  /* Botón */
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .boton:hover {
+    background-color: #004494;
+  }
+  section#contacto {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Títulos */
+  #contacto h2 {
+    text-align: center;
+    color: #0073aa;
+    margin-bottom: 25px;
+  }
+  
+  #contacto h3 {
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  /* Formulario */
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background-color: #fefefe;
+  }
+  
+  form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  /* Botón */
+  form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #005f8d;
+  }
+  
+  /* Información de contacto */
+  #contacto p {
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  #contacto a {
+    color: #0073aa;
+    text-decoration: none;
+  }
+  
+  #contacto a:hover {
+    text-decoration: underline;
+  }
+  /* Pie de página */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.lista-proyectos li { /* Lista de proyectos */
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.lista-proyectos a { /* Enlaces de las proyectos */
+    display: block;
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none; /*Elimina el subrayado de los enlaces.*/
+    font-weight: bold; /*Hace los enlaces más visibles con negrita.*/
+    margin-bottom: 8px;
+    transition: color 0.3s;
+}
+a:hover { /*Cambia el color cuando el usuario pasa el mouse sobre el enlace.*/
+    color: #550408;
+}
+
+.lista-proyectos img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
